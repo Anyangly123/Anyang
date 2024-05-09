@@ -1,0 +1,40 @@
+
+/* ͷͼ͸�� */
+#page-header:before{
+  background-color: transparent!important;
+}
+
+
+/* ͷͼ͸�� */
+#page-header{
+  background: transparent!important;
+}
+
+/* ҳ����ʽ */
+#footer:before{
+  background-color: transparent !important;   /* ҳ������Ϊ͸�� */
+}
+
+/* ҳ��������ɫ */ 
+#footer-wrap {
+  position: relative;
+  color: #ffffff;                          
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#page-header.post-bg:before {
+  background-color: transparent!important;
+}
+
+
+ */
+/*ҹ��ģʽα�����ֲ�͸��*/
+[data-theme="dark"]
+  #footer::before{
+      background: transparent!important;
+    }
+[data-theme="dark"]
+  #page-header::before{
+    background: transparent!important;
+    }
